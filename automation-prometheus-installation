@@ -25,7 +25,7 @@ sudo cp prometheus.yml /etc/prometheus/prometheus.yml
 
 sudo chown prometheus:prometheus /etc/prometheus/prometheus.yml
 
-sudo vim /etc/systemd/system/prometheus.service
+sudo touch /etc/systemd/system/prometheus.service
 
 echo "[Unit]
 Description=Prometheus
