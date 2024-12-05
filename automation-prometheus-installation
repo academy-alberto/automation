@@ -1,5 +1,10 @@
 #!/bin/bash
-
+wget $1
+filename=`basename $1`
+tar xvf $filename
+exact_dir="${filename%.tar.gz}"
+echo $exact_dir
+cd $exact_dir
 sudo useradd --no-create-home --shell /bin/false prometheus
 
 sudo mkdir /etc/prometheus/
