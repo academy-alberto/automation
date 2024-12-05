@@ -44,7 +44,7 @@ Type=simple
 ExecStart=/usr/local/bin/prometheus --config.file=/etc/prometheus/prometheus.yml --storage.tsdb.path /var/lib/prometheus/ --web.console.templates=/etc/prometheus/consoles --web.console.libraries=/etc/prometheus/console_libraries
 
 [Install]
-WantedBy=muulti-user.target" > /etc/systemd/system/prometheus.service
+WantedBy=multi-user.target" > /etc/systemd/system/prometheus.service
 
 sudo systemctl daemon-reload
 
