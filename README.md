@@ -5,7 +5,7 @@
 Download the script into your system
 ```
 
-https://raw.githubusercontent.com/academy-alberto/prometheus-server-automation/refs/heads/master/prometheus-server
+wget https://raw.githubusercontent.com/academy-alberto/prometheus-server-automation/refs/heads/master/prometheus-server
 
 ```
 
